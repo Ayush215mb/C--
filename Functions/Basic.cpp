@@ -3,7 +3,8 @@ using namespace std;
 
 // return a integer
 // passing parameters by value
-int Add(int a, int b)
+// we can give default values in function, if the value is not passes then it will use that value
+int Add(int a, int b = 2)
 {
     return a + b;
 }

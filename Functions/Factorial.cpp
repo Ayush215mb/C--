@@ -12,7 +12,10 @@ long factorial(long a)
 
 int main()
 {
-    long number = 3;
+    long number;
+
+    cout << "Enter a number: ";
+    cin >> number;
     cout << number << "! = " << factorial(number);
     return 0;
 }
