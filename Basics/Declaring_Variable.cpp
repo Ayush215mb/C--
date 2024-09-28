@@ -8,15 +8,15 @@ int main()
     int c{2};
     int result;
 
-    // // Here, fifth is declared as having an auto type; therefore, the type of fifth is the type of the value used to initialize it: in this case it uses the type of foo, which is int.
+    // Here, fifth is declared as having an auto type; therefore, the type of fifth is the type of the value used to initialize it: in this case it uses the type of foo, which is int.
 
-    // int foo = 0;
-    // auto fifth = foo;
+    int foo = 0;
+    auto fifth = foo;
 
-    // // Variables that are not initialized can also make use of type deduction with the decltype specifier:
-    // //  Here, bar is declared as having the same type as foo.
+    // Variables that are not initialized can also make use of type deduction with the decltype specifier:
+    //  Here, bar is declared as having the same type as foo.
 
-    // decltype(foo) bar;
+    decltype(foo) bar;
 
     result = a + b + c;
 
