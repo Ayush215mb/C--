@@ -4,6 +4,7 @@ using namespace std;
 
 // a variable which stores the address of another variable is called a pointer. Pointers are said to "point to" the variable whose address they store.
 /*
+nothing
 The reference and dereference operators are thus complementary:
 & is the address-of operator, and can be read simply as "address of"
 * is the dereference operator, and can be read as "value pointed to by"
