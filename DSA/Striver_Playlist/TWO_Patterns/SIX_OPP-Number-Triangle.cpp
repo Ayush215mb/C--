@@ -1,17 +1,24 @@
 #include <iostream>
 
 using namespace std;
+// used HELP
 
-int main()
+void Opp_Num_triangle(int num)
 {
-    int arr[5] = {1, 2, 3, 4, 5};
-    for (int i = 0; i < 5; i++)
+
+    for (int i = 0; i < num; i++)
     {
-        for (int j = 5; j > i; j--)
+        for (int j = num; j > i; j--)
         {
-            cout << arr[j];
+            cout << num - j + 1;
         }
         cout << "\n";
     }
+}
+
+int main()
+{
+    Opp_Num_triangle(7);
+
     return 0;
 }

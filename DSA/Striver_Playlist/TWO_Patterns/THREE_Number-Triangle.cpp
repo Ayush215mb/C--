@@ -2,27 +2,43 @@
 
 using namespace std;
 
+void Num_Traingle1(int num)
+{
+
+    for (int i = 1; i <= num; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << j;
+        }
+        cout << "\n";
+    }
+}
+
+void Num_Traingle2(int num)
+{
+
+    for (int i = 1; i <= num; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            cout << j;
+        }
+        cout << "\n";
+    }
+}
 int main()
 {
-    int arr[5] = {1, 2, 3, 4, 5};
+    int row;
 
-    for (int i = 0; i < 5; i++)
-    {
-        for (int j = 0; j <= i; j++)
-        {
-            cout << arr[j];
-        }
-        cout << "\n";
-    }
+    cout << "Enter the number of rows: ";
+    cin >> row;
+
+    Num_Traingle1(row);
+
     cout << "\n\n";
-    // QUES FOUR
-    for (int i = 0; i < 5; i++)
-    {
-        for (int j = 0; j <= i; j++)
-        {
-            cout << arr[i];
-        }
-        cout << "\n";
-    }
+
+    Num_Traingle2(row);
+
     return 0;
 }
