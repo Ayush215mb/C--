@@ -39,14 +39,6 @@ int main()
         cout << endl
              << arr[n] << ", ";
 
-    // Pointer and string literals
-    const char *foo = "hello";
-    for (int j = 0; j < 6; j++)
-    {
-
-        cout << *(foo + j);
-    }
-
     // Pointers to pointers
     // C++ allows the use of pointers that point to pointers, that these, in its turn, point to data (or even to other pointers). The syntax simply requires an asterisk (*) for each level of indirection in the declaration of the pointer:
 
