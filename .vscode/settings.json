@@ -3,7 +3,8 @@
   "files.associations": {
     "stdio.h": "c",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "utility": "cpp"
   },
   "git.ignoreLimitWarning": true
 }
