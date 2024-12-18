@@ -4,7 +4,10 @@
     "stdio.h": "c",
     "iostream": "cpp",
     "ostream": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "xstring": "cpp",
+    "xutility": "cpp",
+    "xmemory": "cpp"
   },
   "git.ignoreLimitWarning": true
 }
