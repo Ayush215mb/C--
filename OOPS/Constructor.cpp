@@ -32,12 +32,13 @@ public:
         cin >> fee;
     }
 
-    // Function to display the data
+    // Function/method to display the data
     // defined via constructor
     void display()
     {
         cout << endl
-             << rno << "\t" << name << "\t" << fee << endl;
+             << "Roll number is: "
+             << rno << "\nName is: " << name << "\nfees is: " << fee << endl;
     }
 };
 
@@ -52,13 +53,13 @@ int main()
 
     s.display();
 
-    cout << "There are 4 types of costructors:\n";
+    cout << "\nThere are 4 types of costructors:\n";
     cout << "Default Constructor: No parameters. They are used to create an object with default values.\n";
     cout << "Parameterized Constructor: Takes parameters. Used to create an object with specific initial values.\n";
     cout << "Copy Constructor: Takes a reference to another object of the same class. Used to create a copy of an object.\n";
     cout << "Move Constructor: Takes an rvalue reference to another object. Transfers resources from a temporary object.\n";
 
-    cout << "will study them later in depth"
+    cout << "will study them later in depth";
 
-        return 0;
+    return 0;
 }
